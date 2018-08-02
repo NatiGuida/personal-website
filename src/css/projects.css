@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+.projects-container {
+  margin-top: 50px;
+  text-align: center;
+  height: auto;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.projects-title {
+  color: #cb6984;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.container-web-projects {
+  display: flex;
+}
+
+.web-bot,
+.web-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-web-projects .web {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.container-web-projects .web:hover {
+  transform: scale(1.05);
+}
+
+@media all and (max-width: 700px) {
+  .container-web-projects {
+    display: flex;
+    flex-direction: column;
+  }
+}
