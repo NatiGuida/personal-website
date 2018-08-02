@@ -1,3 +1,16 @@
+
+This is my personal website, made with React.
+# Development
+* Clone repo
+* npm install
+* npm start
+* localhost: 3000
+
+You can try it from this url:
+https://natiguida.now.sh/
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
