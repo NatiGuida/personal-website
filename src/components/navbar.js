@@ -13,7 +13,6 @@ class Navbar extends Component {
     return (
       <nav className="navbar container">
         {this.state.loaded ? null : <div className="placeholder" />}
-
         <div className="avatar-container">
           <img
             src={AvatarIcon}
