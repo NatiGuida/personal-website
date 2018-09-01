@@ -68,23 +68,23 @@ class Skills extends Component {
         <span className="skills-title">-Skills-</span>
         <div>
           <div>
-            <span>HTML5 {this.state.html.maxValue}%</span>
+            <span>HTML5</span>
             <div className="skills-line">
               <Line percent={this.state.html.currentValue} />
             </div>
-            <span>CSS3 {this.state.css.maxValue}%</span>
+            <span>CSS3</span>
             <div className="skills-line">
               <Line clasName="porcent" percent={this.state.css.currentValue} />
             </div>
-            <span>JavaScript {this.state.javascript.maxValue}%</span>
+            <span>JavaScript</span>
             <div className="skills-line">
               <Line percent={this.state.javascript.currentValue} />
             </div>
-            <span>Node.js {this.state.node.maxValue}%</span>
+            <span>Node.js</span>
             <div className="skills-line">
               <Line percent={this.state.node.currentValue} />
             </div>
-            <span>React {this.state.react.maxValue}%</span>
+            <span>React</span>
             <div className="skills-line">
               <Line percent={this.state.react.currentValue} />
             </div>
