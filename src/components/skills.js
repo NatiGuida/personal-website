@@ -81,6 +81,7 @@ class Skills extends Component {
               <Line percent={this.state.javascript.currentValue} />
             </div>
             <span>Node.js</span>
+
             <div className="skills-line">
               <Line percent={this.state.node.currentValue} />
             </div>
