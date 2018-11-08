@@ -20,14 +20,24 @@
 .avatar-container {
   margin: 0px;
   padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
 }
 
 .avatar-container img {
-  max-width: 250px;
+  width: 100%;
 }
 
 h1 {
   color: #cb6984;
+  margin-bottom: 0px;
+}
+
+.from {
+  margin: 0px;
+  margin-top: -32px;
 }
 
 h2 {
@@ -141,7 +151,7 @@ h2 .cursor {
 .social-container a .social-icon-twitter,
 .social-container a .social-icon-linkedin,
 .social-container a .social-icon-mail {
-  font-size: 35px;
+  font-size: 25px;
   margin-right: 20px;
   padding: 5px;
 }

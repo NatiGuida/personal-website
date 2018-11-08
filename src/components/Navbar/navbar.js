@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import AvatarIcon from "../img/avatar.png";
-import "../js/fontawesome-all";
-import "../css/navbar.css";
+import "./navbar.css";
 
 class Navbar extends Component {
   constructor() {
@@ -15,7 +13,7 @@ class Navbar extends Component {
         {this.state.loaded ? null : <div className="placeholder" />}
         <div className="avatar-container">
           <img
-            src={AvatarIcon}
+            src='./avatar.jpg'
             alt="Imagen de Nati Guida"
             style={this.state.loaded ? {} : { display: "none" }}
             onLoad={() => this.setState({ loaded: true })}
@@ -23,19 +21,14 @@ class Navbar extends Component {
         </div>
         <div className="contact-container">
           <h1>Nati Guida</h1>
+          <p className="from">Buenos Aires, Argentina.</p>
           <div>
             <h2>
               Frontend Developer
               <span className="blink cursor"> |</span>
             </h2>
           </div>
-          <h3>
-            Soy de Buenos Aires, Argentina. Actualmente estoy trabajando en{" "}
-            <a href="https://tanintensa.com" target="_blank">
-              @TanIntensa{" "}
-            </a>en el desarrollo de nuevas funcionalidades y el mantenimiento de
-            la página.
-          </h3>
+          <h3>Actualmente en Mercado Libre.</h3>
           <div className="social-container">
             <a href="https://github.com/NatiGuida" target="_blank">
               <i className="fab fa-github social-icon-git" />

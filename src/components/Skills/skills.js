@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Line } from "rc-progress";
-import "../css/navbar.css";
-import "../css/skills.css";
+import "../Navbar/navbar.css";
+import "./skills.css";
 
 class Skills extends Component {
   constructor() {
@@ -74,7 +74,7 @@ class Skills extends Component {
             </div>
             <span>CSS3</span>
             <div className="skills-line">
-              <Line clasName="porcent" percent={this.state.css.currentValue} />
+              <Line className="porcent" percent={this.state.css.currentValue} />
             </div>
             <span>JavaScript</span>
             <div className="skills-line">
