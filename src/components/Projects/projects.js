@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <section className="projects-container container">
-        <span className="projects-title">-Projects-</span>
+        <span className="projects-title">-Proyectos-</span>
         <div className="container-web-projects">
           <a className="web-top" href="https://tanintensa.com" target="_blank">
             <img className="web" src='./tanintensa.png' alt="Web Tan Intensa" />

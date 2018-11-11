@@ -18,7 +18,7 @@
 }
 
 .avatar-container {
-  margin: 0px;
+  margin: auto;
   padding: 0px;
   display: flex;
   justify-content: center;
@@ -31,7 +31,7 @@
 }
 
 h1 {
-  color: #cb6984;
+  color: #940b4f;
   margin-bottom: 0px;
 }
 
@@ -140,36 +140,51 @@ h2 .cursor {
 }
 
 .social-container {
-  background-color: #cb6984;
+  /* background-color: #940b4f; */
+  display: flex;
 }
 
 .social-container a {
   color: #fff;
+  margin: 0px 15px 15px 0px;
 }
 
 .social-container a .social-icon-git,
-.social-container a .social-icon-twitter,
 .social-container a .social-icon-linkedin,
+.social-container a .social-icon-twitter,
+.social-container a .social-icon-instagram,
 .social-container a .social-icon-mail {
+  border-radius: 50%;
   font-size: 25px;
-  margin-right: 20px;
-  padding: 5px;
+  padding: 8px;
 }
 
-.social-container a .social-icon-git:hover {
-  color: #f4cab1;
+.social-container a .social-icon-git {
+  background-color: #544ced;
 }
 
-.social-container a .social-icon-twitter:hover {
-  color: #00abf0;
+.social-container a .social-icon-linkedin {
+  background-color: #8f39ce;
 }
 
-.social-container a .social-icon-linkedin:hover {
-  color: #0273b3;
+.social-container a .social-icon-twitter {
+  background-color: #d53692;
 }
 
+.social-container a .social-icon-instagram {
+  background-color: #f5326e;
+}
+
+.social-container a .social-icon-mail {
+  background-color: #f74440;
+}
+
+.social-container a .social-icon-git:hover ,
+.social-container a .social-icon-linkedin:hover,
+.social-container a .social-icon-twitter:hover,
+.social-container a .social-icon-instagram:hover,
 .social-container a .social-icon-mail:hover {
-  color: #4068db;
+  color: #cdcdcd;
 }
 
 @media all and (max-width: 1000px) {
@@ -185,6 +200,9 @@ h2 .cursor {
 }
 
 @media all and (max-width: 700px) {
+  .from {
+    margin-top: 0px; 
+  }
   .container {
     width: 100%;
   }

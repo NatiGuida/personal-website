@@ -33,14 +33,14 @@ class Navbar extends Component {
             <a href="https://github.com/NatiGuida" target="_blank">
               <i className="fab fa-github social-icon-git" />
             </a>
+            <a href="https://www.linkedin.com/in/natalia-guida-38505b14a/" target="_blank">
+              <i className="fab fa-linkedin-in social-icon-linkedin" />
+            </a>
             <a href="https://twitter.com/NatiGuidaa" target="_blank">
               <i className="fab fa-twitter social-icon-twitter" />
             </a>
-            <a
-              href="https://www.linkedin.com/in/natalia-guida-38505b14a/"
-              target="_blank"
-            >
-              <i className="fab fa-linkedin-in social-icon-linkedin" />
+            <a href="https://instagram.com/NatiGuida" target="_blank">
+              <i className="fab fa-instagram social-icon-instagram"></i>
             </a>
             <a href="mailto:natiguida@gmail.com">
               <i className="far fa-envelope social-icon-mail" />
